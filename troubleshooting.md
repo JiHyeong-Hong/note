@@ -1,6 +1,9 @@
 # Troubleshooting
-- 부력 문제  
-해결) Auto Active 체크 하면 해결됨
+- 부력 문제 :: 배가 안떠요!  
+해결) Auto Active 체크 하면 해결됨  
+해결2) WaterBodyOcean → Collision Extents 좌표 값을 더 넓게 수정하면 된다.  
+문제요인) 액터의 스케일이 x100 되어 있는 메시 모델을 써서 WaterBody의 Collision 범위를 넘어가면서 생기는 문제.   
+소인국에 온 걸리버처럼 거인같은 스케일의 모델을 썼기 때문이다.  
 - w 눌렀는데 배가 옆으로 움직인다?  
 시도방법1)  
 fbx 파일의 앞면이 정해져 있지 않아서 그런거라면, z rotate +90 해서 다시저장하기 -> fbx 파일이 없다고 달라고 한다.  
