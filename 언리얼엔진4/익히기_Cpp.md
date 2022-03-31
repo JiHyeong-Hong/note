@@ -1,16 +1,18 @@
-UUserWidget
+UUserWidget  
 
-UFUNCTION( ... )
-BlueprintCallable
-Category = "UMG_Game"
-ChangeMenuWidget
-TSubclassOf<UUserWidget>
+UFUNCTION( ... )  
+BlueprintCallable  
+Category = "UMG_Game"  
+ChangeMenuWidget  
+TSubclassOf<UUserWidget>  
 
-UPROPERTY( ... )
-EditAnywhere
-BlueprintReadOnly
+UPROPERTY( ... )  
+EditAnywhere  
+BlueprintReadOnly  
 
-UPROPERTY()
-UUserWidget* CurrentWidget;
+UPROPERTY()  
+UUserWidget* CurrentWidget;  
 
-Super::
+Super::  
+  
+ConstructorHelpers::FObjectFinder<USkeletalMesh> SM(TEXT("경로이름'"));  
