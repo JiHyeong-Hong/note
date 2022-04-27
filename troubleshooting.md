@@ -25,4 +25,9 @@ w입력이 정방향이 아닐 수도 있지 않나?
 - 키보드로 입력 받기 & 움직이기  
 해결)
 
-
+- #include가 안돼요!  
+언리얼 엔진은 계속 업데이트 되고 있기 때문에 바뀌는 것들이 많다.  
+경로 이름이 바뀌었을 수도 있다.  
+예)  
+#include "AI/Navigation/NavigationSystem.h" 이  
+#include "NavigationSystem/Public/NavigationSystem.h" 으로 바뀌었다.  
