@@ -44,3 +44,12 @@ ConstructorHelpers::FObjectFinder<USkeletalMesh> SM(TEXT("경로이름'"));
 검사: IsValidIndex()  
 검색: Find()  
 기존 배열을 힙으로 변환: Heapify   
+
+---
+  
+**int8, int16, uint8?**
+- 뒤에 붙는 숫자는 표현할 수 있는 범위를 의미한다.  
+- 'u'는 unsigned. 부호(음수 영역)가 없음을 의미한다.  
+  
+예) int8은 int(정수)형의 8비트. 2^8개(=256)개의 정수를 표현할 수 있다.  
+예2) float32는 부호/지수/가수 부분으로 나뉜다.
