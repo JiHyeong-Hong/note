@@ -111,4 +111,23 @@ CHAR, WCHAR를 경우에 따라 나누지 않고 통일시킨 자료형을 사�
 **sstream(StringStream)**   
 - 여러가지 자료형이 한 줄에 들어오면 파싱해서 용도에 맞게 사용하기 위한 라이브러리다.    
 예) "이름/날짜/내용"과 같이 문자열로 한 줄의 데이터로 들어오면 각각 이름, 날짜, 내용으로 파싱한다.  
+  
+---
+  
+UCLASS() 매크로: 블루프린트에 게임플레이 요소 노출시키기  
+Blueprintable: C++클래스를 블루프린트를 만들 수 있게 노출시키기  
+BlueprintType:  C++클래스를 블루프린트에서 변수로 사용 가능한 유형(Type)으로 노출시키기  
+NotBlueprintable: C++클래스를 블루프린트로 만들 수 없게 지정하기  
+BlueprintReadOnly: 해당 프로퍼티를 블루프린트에서 읽기만 가능하게 만들기(변경X)  
+BlueprintReadWrite: 해당 프로퍼티를 블루프린트에서 읽고 쓸 수 있게 만들기  
+BlueprintAssignable: 해당 프로퍼티를 블루프린트에서 할당 가능하도록 노출시키기  
+BlueprintCallable: 해당 프로퍼티를 블루프린트 그래프에서 호출 가능하도록 노출시키기  
 
+---
+  
+AddOnScreenDebugMessage  
+CreateDefaultSubobject<UPointLightComponent>  
+다이나믹 델리게이트 AddDynamic  
+UPROPERTY(VisibleAnywhere): 헤더파일에 선언한 컴포넌트가 에디터에서 디테일 탭에 보이게 한다.  
+
+---
