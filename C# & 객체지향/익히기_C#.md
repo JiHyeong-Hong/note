@@ -7,3 +7,9 @@ Parse()
 - string 타입 데이터를 int/float 타입으로 변환시킨다.  
 ToString()  
 - int/float 타입 데이터를 string 타입으로 변환시킨다.  
+
+---
+
+GetIniValue  
+GetPrivateProfileString  
+StringBuilder / String  
