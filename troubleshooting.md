@@ -31,3 +31,10 @@ w입력이 정방향이 아닐 수도 있지 않나?
 예)  
 #include "AI/Navigation/NavigationSystem.h" 이  
 #include "NavigationSystem/Public/NavigationSystem.h" 으로 바뀌었다.  
+
+- Debug에선 정상작동하고 Release에선 안돼요!
+http://www.cplusplus.com/forum/general/74821/  
+Debug 모드에서는 모든 변수가 자동으로 0으로 초기화된다.  
+Release 모드에서 초기화되지 않은 변수가 쓰레기값으로 시작되어 문제가 발생한다.  
+-> 변수 초기화를 시킬것.  
+
