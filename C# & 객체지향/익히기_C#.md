@@ -13,3 +13,11 @@ ToString()
 GetIniValue  
 GetPrivateProfileString  
 StringBuilder / String  
+
+---
+
+제네릭 타입  
+ - C++ 템플릿 개념과 비슷.
+ - int, float, double과 같은 자료형들을 확정하지 않고, 자료형 자체를 Type Parameter로 받아들이도록 클래스를 정의한다.  
+ - 클래스의 거의 모든 부분이 동일한데, 일부 자료형만이 다른 경우에 사용한다.  
+ - 클래스, 인터페이스, 메서드 등에 <T> 같은 타입 파라미터를 붙여 구현한다.  
